@@ -1,0 +1,31 @@
+overlay	chrome://browser/content/browser.xul	chrome://ausaddonbar/content/ausoverlay.xul
+content	ausaddonbar	chrome/content/
+skin	ausaddonbar	classic	chrome/skin/
+
+locale	ausaddonbar	ar		chrome/locale/ar/
+locale	ausaddonbar	cs		chrome/locale/cs/
+locale	ausaddonbar	da		chrome/locale/da/
+locale	ausaddonbar	de		chrome/locale/de/
+locale	ausaddonbar	el		chrome/locale/el/
+locale	ausaddonbar	en-US	chrome/locale/en-US/
+locale	ausaddonbar	es-MX	chrome/locale/es-MX/
+locale	ausaddonbar	fr		chrome/locale/fr/
+locale	ausaddonbar	hu		chrome/locale/hu/
+locale	ausaddonbar	it		chrome/locale/it/
+locale	ausaddonbar	ja		chrome/locale/ja/
+locale	ausaddonbar	ko		chrome/locale/ko/
+locale	ausaddonbar	lt		chrome/locale/lt/
+locale	ausaddonbar	nl		chrome/locale/nl/
+locale	ausaddonbar	pl		chrome/locale/pl/
+locale	ausaddonbar	pt-BR	chrome/locale/pt-BR/
+locale	ausaddonbar	pt-PT	chrome/locale/pt-PT/
+locale	ausaddonbar	ro		chrome/locale/ro/
+locale	ausaddonbar	ru		chrome/locale/ru/
+locale	ausaddonbar	sk		chrome/locale/sk/
+locale	ausaddonbar	sl		chrome/locale/sl/
+locale	ausaddonbar	sr		chrome/locale/sr/
+locale	ausaddonbar	sv-SE	chrome/locale/sv-SE/
+locale	ausaddonbar	tr		chrome/locale/tr/
+locale	ausaddonbar	uk		chrome/locale/uk/
+locale	ausaddonbar	zh-CN	chrome/locale/zh-CN/
+locale	ausaddonbar	zh-TW	chrome/locale/zh-TW/

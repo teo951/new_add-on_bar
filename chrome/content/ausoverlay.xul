@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://ausaddonbar/skin/ausaddonbar.css" type="text/css"?>
+
+<!DOCTYPE overlay [
+	<!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd">
+		%browserDTD;
+	<!ENTITY % overlayDTD SYSTEM "chrome://ausaddonbar/locale/overlay.dtd">
+		%overlayDTD;
+]>
+
+<overlay id="ausbaroverlay"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://ausaddonbar/content/ausoverlay.js" />
+
+	<keyset>
+		<key id="key_toggleAddonBar" key="&toggleAddonBarCmd.key;"
+				 modifiers="accel"
+				 oncommand="addonBarteo.toggleAddonBar();" />
+		</keyset>
+
+	<vbox id="browser-bottombox">
+		<toolbar id="addonbarteo-addon-bar" insertafter="developer-toolbar"
+						 toolbarname="&addonBarCmd.label;" accesskey="&addonBarCmd.accesskey;"
+						 collapsed="false"
+						 class="toolbar-primary chromeclass-toolbar"
+						 context="toolbar-context-menu" toolboxid="navigator-toolbox"
+						 mode="icons" iconsize="small" defaulticonsize="small"
+						 lockiconsize="true"
+						 defaultset="addonbar-closebutton,spring"
+						 customizable="true"
+						 key="key_toggleAddonBar">
+			<toolbarbutton id="ausaddonbar-closebutton"
+										 tooltiptext="&addonBarCloseButton.tooltip;"
+										 class="close-icon closebutton"
+										 removable="false"
+										 oncommand="addonBarteo.toggleAddonBar();" />
+		</toolbar>
+	</vbox>
+
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarseparator id="separator"
+											type="custom"
+											label="&ausaddonbar.separator;"
+											cui-areatype="toolbar"
+											removable="true" />
+		<toolbarspring id="spring"
+									 type="custom"
+									 label="&ausaddonbar.spring;"
+									 cui-areatype="toolbar"
+									 removable="true" flex="1" />
+		<toolbarspacer id="spacer"
+									 type="custom"
+									 label="&ausaddonbar.spacer;"
+									 cui-areatype="toolbar"
+									 removable="true" />
+	</toolbarpalette>
+
+</overlay>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		 xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>ausaddonbar@teo.pl</em:id>
+		<em:name>New Add-on Bar</em:name>
+		<em:type>2</em:type>
+		<em:version>0.22</em:version>
+		<em:description>Restore add-on bar which was removed in the Australis theme.</em:description>
+		<em:creator>Leszek(teo)Życzkowski</em:creator>
+
+		<em:localized>
+			<Description>
+				<em:locale>pl</em:locale>
+				<em:name>ANew Add-on Bar</em:name>
+				<em:description>Przywraca pasek dodatków usunięty w motywie Australis.</em:description>
+				<em:creator>Leszek(teo)Życzkowski</em:creator>
+				<em:translator>Leszek(teo)Życzkowski</em:translator>
+			</Description>
+		</em:localized>
+
+		<!-- Firefox -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>29.0a2</em:minVersion>
+				<em:maxVersion>30.0</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+</RDF>
